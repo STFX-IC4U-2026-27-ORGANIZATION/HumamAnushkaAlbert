@@ -64,7 +64,7 @@ public class Footwear {
 	@Override
 	public String toString() {
 		
-		return this.brand + "."+ this.typeOfFootwear + "."+ this.price + "."+ this.size;
+		return super.toString()  + "."+  this.brand + "."+ this.typeOfFootwear + "."+ this.price + "."+ this.size;
 	}
 	
 	
