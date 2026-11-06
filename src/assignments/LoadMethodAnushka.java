@@ -22,7 +22,9 @@ public class LoadMethodAnushka {
 			
 			while ( (word = br.readLine()) != null) {
 				
-				tempArray.add(new Footwear (word, br.readLine(), br.readLine(), br.readLine()));
+				String [] tempSplit = word.split(" "); 
+				
+				tempArray.add(new Footwear (tempSplit[0], tempSplit[1], tempSplit[2], tempSplit[3]));
 				
 			}
 			

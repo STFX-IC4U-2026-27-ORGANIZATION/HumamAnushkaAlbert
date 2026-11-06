@@ -1,44 +1,11 @@
-Nike 
-shoes 
-104 
-9
-Puma
-shoes 
-28.99 
-8
-HOKA 
-shoes
-106.98
-7
-Crocs
-slip-ons 
-79.00
-4
-UGG
-slip-ons
-100.99
-10
-Columbia
-boots 
-45.76
-12
-Under Armor
-shoes 
-29.99
-2
-Vans
-shoes 
-67.67
-14
-Birkenstock
-slip-ons 
-210.99
-15
-Jordon 4's 
-shoes 
-500.45
-13
-Vessi
-shoes 
-58.77
-5
+Nike shoes 104 9
+Puma shoes 28.99 8
+HOKA shoes 106.98 7
+Crocs slip-ons 79.00 4
+UGG slip-ons 100.99 10
+Columbia boots 45.76 12
+UnderArmor shoes 29.99 2
+Vans shoes 67.67 14
+Birkenstock slip-ons 210.99 15
+Jordon4's shoes 500.45 13
+Vessi shoes 58.77 5
