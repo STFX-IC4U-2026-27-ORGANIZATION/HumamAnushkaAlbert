@@ -30,7 +30,8 @@ public class LinearUnsortedAnushka {
 	public static int searchSize (Footwear[] a, String size, int index) {
 	
 		//Error Case
-		if (a[index] == null || index < 0)
+		if (a[index] == null || index < 0 || index > a.length)
+			
 			return -1; 
 		
 		//Base Case 
