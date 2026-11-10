@@ -9,7 +9,7 @@ public class LinearUnsortedAnushka {
 	public static int searchPrice (Footwear[] a, String price, int index) {
 		
 		//Error Case
-		if (a==null || a[index] == null || index < 0 || index >= a.length -1)
+		if (a==null || a[index] == null || index < 0 || index > a.length -1)
 			return -1;
 		
 		//Base Case 
@@ -30,7 +30,7 @@ public class LinearUnsortedAnushka {
 	public static int searchSize (Footwear[] a, String size, int index) {
 	
 		//Error Case
-		if (a==null || a[index] == null || index < 0 || index >= a.length - 1)
+		if (a==null || a[index] == null || index < 0 || index > a.length - 1)
 			
 			return -1; 
 		
