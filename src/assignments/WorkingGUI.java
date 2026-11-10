@@ -22,7 +22,7 @@ public class WorkingGUI {
 	private JTextField textField_4;  
 
 	
-	private Footwear[] database = LoadMethodAnushka.loadItems("shoes.txt");
+	private Footwear[] database = LoadMethodAnushka.loadItems("src//Footwear.txt");
 
 
 
