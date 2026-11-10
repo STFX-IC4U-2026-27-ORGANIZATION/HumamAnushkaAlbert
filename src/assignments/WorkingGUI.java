@@ -2,6 +2,7 @@ package assignments;
 
 import java.awt.EventQueue;
 
+
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import java.awt.Font;
@@ -10,50 +11,20 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
+
 public class WorkingGUI {
 
 	private JFrame frame;
-	private JTextField textField;    // Search Criteria
-	private JTextField textField_1;  // Brand
-	private JTextField textField_2;  // Type
-	private JTextField textField_3;  // Price
-	private JTextField textField_4;  // Size
+	private JTextField textField;    
+	private JTextField textField_1;  
+	private JTextField textField_2;  
+	private JTextField textField_3;  
+	private JTextField textField_4;  
 
-	// Loads database array from file using Anushka's method[cite: 4, 8]
+	
 	private Footwear[] database = LoadMethodAnushka.loadItems("shoes.txt");
 
-	//DESCRIPTION - Returns Footwear object that corresponds to the search word; if not found, return null[cite: 11]
-	//PARAMETERS - Footwear[] a, String searchWord
-	//RETURN - Footwear
-	public static Footwear searchAll(Footwear[] a, String searchWord) {
-		
-		// Checks Brand[cite: 10]
-		int index = LinearUnsortedAlbert.searchBrand(a, searchWord, 0);
-		if (index != -1) {
-			return a[index];
-		}
 
-		// Checks Type of Shoe[cite: 10]
-		index = LinearUnsortedAlbert.searchTypeOfShoe(a, searchWord, 0);
-		if (index != -1) {
-			return a[index];
-		}
-
-		// Checks Price[cite: 9]
-		index = LinearUnsortedAnushka.searchPrice(a, searchWord, 0);
-		if (index != -1) {
-			return a[index];
-		}
-
-		// Checks Size[cite: 9]
-		index = LinearUnsortedAnushka.searchSize(a, searchWord, 0);
-		if (index != -1) {
-			return a[index];
-		}
-
-		// Returns null if no match is found
-		return null;
-	}
 
 	/**
 	 * Launch the application.
@@ -149,7 +120,7 @@ public class WorkingGUI {
 				String searchWord = textField.getText().trim();
 				
 				
-				Footwear result = searchAll(database, searchWord);
+				Footwear result = HumamMethod.searchAll(database, searchWord);
 				
 				
 				if (result != null) {

@@ -4,31 +4,31 @@ public class HumamMethod {
 
 	public static Footwear searchAll(Footwear[] a, String searchWord) {
 	    
-	    // Checks Brand
+	    // checks brand
 	    int index = LinearUnsortedAlbert.searchBrand(a, searchWord, 0);
 	    if (index != -1) {
 	        return a[index];
 	    }
 
-	    // Checks Type of Shoe
+	    // checks Type of Shoe
 	    index = LinearUnsortedAlbert.searchTypeOfShoe(a, searchWord, 0);
 	    if (index != -1) {
 	        return a[index];
 	    }
 
-	    // Checks Price
+	    // checks price
 	    index = LinearUnsortedAnushka.searchPrice(a, searchWord, 0);
 	    if (index != -1) {
 	        return a[index];
 	    }
 
-	    // Checks Size
+	    // checks size
 	    index = LinearUnsortedAnushka.searchSize(a, searchWord, 0);
 	    if (index != -1) {
 	        return a[index];
 	    }
 
-	    // Returns null if no match is found
+	    // returns null if no match is found
 	    return null;
 	}
 
