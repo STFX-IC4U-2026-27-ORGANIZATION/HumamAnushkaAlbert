@@ -13,7 +13,7 @@ public class TestAlbertMethods {
 	        newArray[0]= object;
 	        newArray[1]= object1;
 	    
-	        //System.out.println(LinearUnsortedAnushka.searchPrice(newArray, "0", 0));
+	        System.out.println(LinearUnsortedAnushka.searchPrice(newArray, "0", 0));
 
 
 		
